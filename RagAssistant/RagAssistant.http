@@ -1,0 +1,6 @@
+@RagAssistant_HostAddress = http://localhost:5099
+
+GET {{RagAssistant_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

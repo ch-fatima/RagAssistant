@@ -1,0 +1,81 @@
+# Visual Studio
+
+.vs/
+.vscode/
+
+# Build results
+
+[Bb]in/
+[Oo]bj/
+
+# User-specific files
+
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio cache
+
+.vs/
+
+# Test results
+
+TestResults/
+*.trx
+
+# Coverage
+
+coverage/
+*.coverage
+*.coveragexml
+
+# NuGet
+
+*.nupkg
+*.snupkg
+packages/
+
+# Logs
+
+*.log
+logs/
+
+# Local configuration / secrets
+
+appsettings.Local.json
+appsettings.*.Local.json
+secrets.json
+
+# Local AI / Embedding Models
+
+RagAssistant/Models/
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Temporary files
+
+*.tmp
+*.temp
+
+# Resharper
+
+_ReSharper*/
+*.[Rr]e[Ss]harper*
+*.DotSettings.user
+
+# JetBrains Rider
+
+.idea/
+
+# Publish
+
+publish/
+*.publishsettings
+
+# Docker local files
+
+docker-compose.override.yml
