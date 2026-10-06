@@ -26,7 +26,6 @@ public sealed class IngestDocumentHandler
         }
 
         await _ingestionService.IngestAsync(
-            request.Content,
-            cancellationToken);
+            request.Content);
     }
 }
