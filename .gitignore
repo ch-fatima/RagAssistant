@@ -79,3 +79,10 @@ publish/
 # Docker local files
 
 docker-compose.override.yml
+
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
