@@ -1,4 +1,4 @@
-﻿namespace RagAssistant.Infrastructure.PdfText;
+﻿namespace RagAssistant.Domain.Dtos.Ocr;
 
 public sealed partial class PdfOcrExtractor
 {
