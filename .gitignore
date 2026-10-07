@@ -80,9 +80,9 @@ publish/
 
 docker-compose.override.yml
 
-# Python virtual environment
-.venv/
-
-# Python cache
 __pycache__/
-*.pyc
+*.py[cod]
+.pytest_cache/
+
+# Python virtual environment
+ocr-service/.venv/
