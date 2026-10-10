@@ -80,6 +80,17 @@ publish/
 
 docker-compose.override.yml
 
+
+# Python virtual environments
+ocr-service/.venv/
+ocr-service/venv/
+**/__pycache__/
+*.py[cod]
+
+# .NET build files
+**/bin/
+**/obj/
+
 __pycache__/
 *.py[cod]
 .pytest_cache/
