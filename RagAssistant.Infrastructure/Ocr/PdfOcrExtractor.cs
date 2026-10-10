@@ -1,4 +1,5 @@
 ﻿using RagAssistant.Application.Interfaces;
+using RagAssistant.Domain.Dtos.Ocr;
 using System.Net.Http.Headers;
 using System.Text.Json;
 
